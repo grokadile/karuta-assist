@@ -919,7 +919,6 @@ async def on_message(message):
             kciinfo = tupletostr(stripkci(kci_d))
             kluinfo = klutoinfo(klu_d)
             kinfo = [i for i in (kluinfo + ' ' + kciinfo).split(" ")]
-            print(kinfo)
             obj = parameterCommands(kinfo)
             inp = parameterCommands.am(obj)
             statlist = inp[0]

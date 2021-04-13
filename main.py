@@ -678,10 +678,7 @@ async def am(ctx, *args):
     card.set_thumbnail(url = botIcon)
     card.add_field(name = "**Effort Modifiers**", value = desc, inline = False)
     card.set_footer(text="All values are correct. If there is an issue please check your inputs.\nCall kpc for more help about this command")
-    if [*args] == []:
-        await ctx.send("Please have at least 1 parameter")
-    else:
-        await ctx.send(embed = card)
+    await ctx.send(embed = card)
     channel = bot.get_channel(825955683996401685)
     e = discord.Embed(title=f"Time: {datetime.datetime.now()}", description=f"Called by <@{ctx.author.id}>",
                       url=f"https://discord.com/channels/{ctx.message.guild.id}/{ctx.message.channel.id}/{ctx.message.id}",

@@ -674,7 +674,7 @@ async def am(ctx, *args):
             if value == i:
                 desc += f"{toWord(key)}: {value}\n"
                 restrestdict[key] = -1
-    card = discord.Embed(title="Worker Details", description=f"Showing worker details for <@{ctx.author.id}>\n\nEffort: **{statlist[0]}**", inline=False)
+    card = discord.Embed(title="Worker Details", description=f"Showing worker details for <@{ctx.author.id}>\n\nEffort: **{statlist[0]}**")
     card.set_thumbnail(url = botIcon)
     card.add_field(name = "**Effort Modifiers**", value = desc, inline = False)
     card.set_footer(text="All values are correct. If there is an issue please check your inputs.\nCall kpc for more help about this command")

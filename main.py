@@ -931,9 +931,7 @@ async def on_message(message):
                     if value == i:
                         desc += f"{toWord(key)}: {value}\n"
                         restdict[key] = -1
-            card = discord.Embed(title="Worker Details",
-                             description=f"Showing worker details for <@{message.author.id}>\n\nEffort: **{statlist[0]}**",
-                             inline=False)
+            card = discord.Embed(title="Worker Details", description=f"Showing worker details for <@{message.author.id}>\n\nEffort: **{statlist[0]}**", inline=False)
             card.set_thumbnail(url=botIcon)
             card.add_field(name="**Effort Modifiers**", value=desc, inline=False)
             card.set_footer(

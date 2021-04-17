@@ -404,12 +404,12 @@ class parameterCommands:
             drop = round(base / 10)
         tough = round(base * 0.05 * tConvert(self.t))
         if self.f:
-            frame = round(base * 0.75)
+            frame = 0.75
         if self.dy == "t":
-            dye = round(base / 5)
+            dye = 0.2
         elif self.dy == "m":
-            dye = round(base * 0.75)
-        style = frame + dye
+            dye = 0.75
+        style = round(base * (frame + dye))
         vanity = round(base / 2 * (1 - self.cp/self.gp))
         bst = base + quick + purity + grab + drop + tough + style + vanity
         wellness = round(bst / 4)

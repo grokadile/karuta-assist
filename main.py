@@ -51,7 +51,7 @@ paramNames = """b: base\ne: effort\ns: quickness (in seconds)\n
 taxRates = """uranium: 5, quartz: 5, sugar: 5, bone: 5, magma: 5, wool: 5\n
                 essence: 10, ice: 10, iron: 10, stone: 10, leaf: 10, salt: 10\n
                 copper: 25, zinc: 40, flower: 45, wood: 49"""
-basescale = 104
+basescale = 105
 fixes = " - s now takes float values\n - Parameterized commands do not need '=', but cannot interchange between having '=' and not having '='\n - 'gt', 'dt' are now fixed\n - Introducing cl= for claimed cards (kbase will not take cp= anymore)"
 soon = " - Vanity command\n - k= fix\n - Gem frame additions to frame testing\n - Morph/Dye for the kf command"
 frames = ["https://cdn.discordapp.com/attachments/783771457468628996/818231355740651571/brass.png",

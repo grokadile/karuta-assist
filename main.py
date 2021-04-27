@@ -9,7 +9,7 @@ import datetime
 ## INFO
 
 
-
+token = "Nzc5NTAwNjAyNDg0MTk1MzI4.X7hcgg.S2Mvd1AooUjRY0x0bSAqfhq6Qnk"
 bot = commands.Bot(command_prefix=["k", "K"])
 
 botIcon = "https://cdn.discordapp.com/attachments/795796743538475100/816500002163261500/water.png"
@@ -709,17 +709,6 @@ async def base(ctx, *args):
                       inline=False)
     e.add_field(name="Message", value=f"{ctx.message.content.lower()}", inline=False)
     await channel.send(embed=e)
-
-@bot.event
-async def on_reaction_add(reaction, user):
-    m = reaction.message
-    if user.id == 646937666251915264 and reaction.custom_emoji:
-        c = bot.get_channel(826680875637800961)
-        await c.send(f"https://discord.com/channels/{reaction.message.guild.id}/{reaction.message.channel.id}/{reaction.message.id}")
-        time.sleep(3)
-        if reaction.count == 1:
-            if m.guild.id == 795795754542694430:
-                await m.channel.send("<@&826586690146926602>")
 
 @bot.event
 async def on_message(message):

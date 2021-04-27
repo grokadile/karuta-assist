@@ -9,7 +9,7 @@ import datetime
 ## INFO
 
 
-token = "Nzc5NTAwNjAyNDg0MTk1MzI4.X7hcgg.3z6ONCbkhp-eyK7cr5hXfSOSXHg"
+
 bot = commands.Bot(command_prefix=["k", "K"])
 
 botIcon = "https://cdn.discordapp.com/attachments/795796743538475100/816500002163261500/water.png"

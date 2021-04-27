@@ -101,14 +101,6 @@ gframes = ["https://cdn.discordapp.com/attachments/783771457468628996/8190291246
            "https://cdn.discordapp.com/attachments/783771457468628996/819029682313232444/tombrelic.png",
            "https://cdn.discordapp.com/attachments/783771457468628996/819029684272234506/witchaltar.png"]
 
-## FLOWERS
-tulip = "<@166271462175408130>, <@150697075657408513>"  # me, frank
-rose = "<@244318220276727820>"  # terry
-sunflower = ""
-blossom = ""
-
-listids = ["166271462175408130", "150697075657408513", "244318220276727820", "398188915326058496",#jerard
-          "183658886790774784", "136130217537306624", "334812827137343498", "226588531772882945", "450099488745324545"]
 block = "\\"
 
 ## INIT
